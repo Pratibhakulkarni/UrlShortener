@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>URL Shortener</h1>
+        <p>Generate a short URL and redirect to the original URL when clicked</p>
+        <div class="input-container">
+            <input type="text" id="url" placeholder="Enter Your URL">
+            <button onclick="shortURL()">Shorten URL</button>
+        </div>
+        <div id="result" class="hidden">
+            <h2>Your Shortened URL:</h2>
+            <a id="shortened-link" href="#" target="_blank"></a>
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
